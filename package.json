@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@lottiefiles/lottie-player": "^1.7.1",
     "classnames": "^2.2.6",
     "lodash": "^4.17.15",
     "react": "^16.13.1",
@@ -10,14 +11,15 @@
     "react-ga": "^2.7.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.1",
-    "sass": "^1.49.7"
+    "sass": "^1.59.3",
+    "styled-components": "^5.3.9"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/cruip/open-react-template.git"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

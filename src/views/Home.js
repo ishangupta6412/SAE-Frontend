@@ -6,7 +6,8 @@ import FeaturesSplit from '../components/sections/FeaturesSplit';
 import Testimonial from '../components/sections/Testimonial';
 import Lastpart from '../components/sections/Lastpart';
 // import Cta from '../components/sections/Cta';
-
+import Team from '../components/layout/team/Team';
+import Time from '../components/layout/timeline/timeline';
 const Home = () => {
 
   return (
@@ -15,8 +16,9 @@ const Home = () => {
       <Testimonial topDivider />
       <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
       <FeaturesTiles />
-      {/* <Cta split /> */}
       <Lastpart/>
+      <Team/>
+      <Time/>
     </>
   );
 }
