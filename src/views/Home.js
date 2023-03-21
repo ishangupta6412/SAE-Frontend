@@ -9,8 +9,9 @@ import { Faculty } from '../components/sections/Faculty';
 import { Crousel } from '../components/sections/Crousel';
 import { Baja } from '../components/sections/Baja';
 import { Team } from '../components/sections/Team';
+import About from '../components/sections/About';
 import { Footer } from '../components/sections/Footer';
-// import { Svg } from '../components/sections/svg';
+
 
 
 
@@ -24,14 +25,14 @@ const Home = () => {
       {/* <Hero className="illustration-section-01" /> */}
       
       <Crousel/>
-      {/* <Svg/> */}
+      <About/>
       
       <Testimonial topDivider />
       <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
       <FeaturesTiles />
        <Baja/>
         
-      {/* <Faculty/> */}
+      <Faculty/>
       <Team/>
       
     
