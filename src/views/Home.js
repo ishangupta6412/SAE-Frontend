@@ -5,18 +5,39 @@ import FeaturesTiles from '../components/sections/FeaturesTiles';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
 import Testimonial from '../components/sections/Testimonial';
 import Lastpart from '../components/sections/Lastpart';
+import { Faculty } from '../components/sections/Faculty';
+import { Crousel } from '../components/sections/Crousel';
+import { Baja } from '../components/sections/Baja';
+import { Team } from '../components/sections/Team';
+import { Footer } from '../components/sections/Footer';
+// import { Svg } from '../components/sections/svg';
+
+
+
+
 // import Cta from '../components/sections/Cta';
 
 const Home = () => {
 
   return (
     <>
-      <Hero className="illustration-section-01" />
+      {/* <Hero className="illustration-section-01" /> */}
+      
+      <Crousel/>
+      {/* <Svg/> */}
+      
       <Testimonial topDivider />
       <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
       <FeaturesTiles />
-      {/* <Cta split /> */}
+       <Baja/>
+        
+      {/* <Faculty/> */}
+      <Team/>
+      
+    
+  
       <Lastpart/>
+    
     </>
   );
 }

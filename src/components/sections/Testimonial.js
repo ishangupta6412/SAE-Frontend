@@ -59,8 +59,8 @@ const Testimonial = ({
           <div className={tilesClasses}>
 
             <div className="tiles-item reveal-from-right" data-reveal-delay="200">
-              <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
+              <div className="tiles-item-inner bg-danger">
+                <div className="testimonial-item-content ">
                   <p className="text-sm mb-0">
                     — The vibrant college life is incomplete without a fest and constitutes a major part of the life of students. It etches a mark on the academic calendar and students look forward to the dates..
                       </p>
@@ -76,7 +76,7 @@ const Testimonial = ({
             </div>
 
             <div className="tiles-item reveal-from-bottom">
-              <div className="tiles-item-inner">
+              <div className="tiles-item-inner bg-danger">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
                     — The club annually organizes the TEDx, "ideas worth spreading".We welcome people from every discipline and culture who seek a deeper understanding of the world and connection with others, and we invite everyone to engage with ideas and activate them in your community.
@@ -93,16 +93,16 @@ const Testimonial = ({
             </div>
 
             <div className="tiles-item reveal-from-left" data-reveal-delay="200">
-              <div className="tiles-item-inner">
+              <div className="tiles-item-inner bg-danger">
                 <div className="testimonial-item-content">
-                  <p className="text-sm mb-0">
+                  <p className="text-sm mb-0 text-color-light">
                     — Even if Automobile is not quite your speed, we have numerous other events that let you try out technology without all its intricacies. With events like Conquesto, Auto Sharks and many other, there is something for everyone
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Events</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
+                  <span className="testimonial-item-name text-color-white">Events</span>
+                  <span className="text-color-danger"> / </span>
+                  <span className="testimonial-item-link ">
                     <a href="#0">Work Flow</a>
                   </span>
                 </div>

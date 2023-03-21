@@ -1,0 +1,15 @@
+#carouselExampleCaptions{
+    height: 100vh;
+}
+#img-1{
+    height: 100vh;
+}
+#img-2{
+    height: 100vh;
+}
+#img-3{
+    height: 100vh;
+}
+.carousel-indicators{
+  opacity: 0;
+}

@@ -74,6 +74,7 @@ const Hero = ({
       className={outerClasses}
     >
       <div className="container-sm">
+      <h2 >Cryptech Videos</h2>
         <div className={innerClasses}>
 
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
