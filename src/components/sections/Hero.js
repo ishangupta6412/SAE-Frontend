@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 // import ButtonGroup from '../elements/ButtonGroup';
 // import Button from '../elements/Button';
-import '@lottiefiles/lottie-player';
+// import '@lottiefiles/lottie-player';
 // import Svg from '../elements/Lottiesvg';
 
 
