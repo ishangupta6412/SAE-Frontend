@@ -79,12 +79,13 @@ const Header = ({
       {...props}
       className={classes}
     >
-      <div className="container">
+      <div className='container-fluid'>
         <div className={
           classNames(
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
           )}>
+
           <Logo />
           {!hideNav &&
             <>

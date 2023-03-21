@@ -19,18 +19,20 @@ body{
     text-align: center;
 }
 
+
 .center h1{
     font-size: 45px;
     font-weight: 500;
     margin-bottom: 20px;
-    color:red;
+    color:rgb(203, 26, 26);
+   
 }
 
 .our-team-text{
     margin: 0 auto;
     max-width: 700px;
     line-height: 1.8;
-    color: #888;
+    color: #fa0808;
     margin-bottom: 40px;
 }
 

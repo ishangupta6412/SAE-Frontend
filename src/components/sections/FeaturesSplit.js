@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import './Featuresplit.css'
 
 const propTypes = {
   ...SectionSplitProps.types
@@ -57,9 +58,8 @@ const FeaturesSplit = ({
   return (
     <section
       {...props}
-      className={outerClasses}
-    >
-      <div className="container">
+      className={outerClasses}>
+      <div className="container mt-2 " >
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={splitClasses}>

@@ -6,14 +6,14 @@ export const Faculty = () => {
   return (
     <>
 
-<div className="container">
+<div className="container-fluid ">
         <div className="center">
-            <h1>Our Faculty Advisors</h1>
+            <h1 id="heading" >Our Faculty Advisors</h1>
            
         </div>
         <div className="cards">
 
-            <div className="card">
+            <div className="card ">
                 <img src="https://nitdgp.ac.in/uploads/n_banerjee.jpg" alt="John Doe"/>
                 <h3 className="card-name">Prof. N. Banarjee</h3>
                 <p className="card-text">Department of Mechanical Engineering</p>
